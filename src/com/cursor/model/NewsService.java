@@ -6,6 +6,7 @@ import java.util.Map;
 public class NewsService {
 
     private Map<String, String> news = new HashMap<>();
+
     public void addNews() {
         news.put("Politics", "Ukraine's president rejects resignation of his prime minister.");
         news.put("Sport", "Ukrainian boxer Derevyanchenko tops WBC middleweight ranking.");

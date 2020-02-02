@@ -90,4 +90,12 @@ public class LFUCache {
             head = tail;
         }
     }
+
+    public void iterateMap() {
+        for (int i = 1; i <= map.size(); i++) {
+            if (map.get(i) != null) {
+                System.out.println("News " + i + ": " + map.get(i));
+            }
+        }
+    }
 }
